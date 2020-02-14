@@ -1,4 +1,53 @@
 /*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  /* Lettertypes met meerdere woorden = quotes */
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #111111;
+  /* 4 = Top, Right, Bottom, Left */
+  /* 3 = Top, Right Left, Bottom */
+  /* 2 = Top Bottom, Right Left */
+  padding: 24px 24px 0;
+}
+
+/*
+* Remove text-shadow in selection highlight:
+* https://twitter.com/miketaylr/status/12228805301
+*
+* Customize the background color to match your design.
+*/
+
+::-moz-selection {
+  background: #44C8F5;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #44C8F5;
+  color: white;
+  text-shadow: none;
+}
+
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+/*
     Elements: typography
     ---
     Default markup for typographic elements
