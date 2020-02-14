@@ -7,8 +7,12 @@
 html {
     font-size: 16px;
     line-height: 1.5;
+    /* Lettertypes met meerdere woorden = quotes */
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111111;
+    /* 4 = Top, Right, Bottom, Left */
+    /* 3 = Top, Right Left, Bottom */
+    /* 2 = Top Bottom, Right Left */
     padding: 24px 24px 0;
 }
 
