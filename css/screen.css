@@ -8,7 +8,7 @@ html {
   font-size: 16px;
   line-height: 1.5;
   /* Lettertypes met meerdere woorden = quotes */
-  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
   color: #111111;
   /* 4 = Top, Right, Bottom, Left */
   /* 3 = Top, Right Left, Bottom */
@@ -25,17 +25,16 @@ html {
 */
 
 ::-moz-selection {
-  background: #44C8F5;
+  background: #44c8f5;
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #44C8F5;
+  background: #44c8f5;
   color: white;
   text-shadow: none;
 }
-
 
 /*
     Elements: Images
@@ -56,7 +55,7 @@ img {
 */
 
 h1 {
-  font-family: "Times New Roman", serif;
+  font-family: 'Times New Roman', serif;
   font-size: 36px;
   font-weight: normal;
   line-height: 40px;
@@ -98,7 +97,7 @@ blockquote {
   font-size: 23px;
   line-height: 32px;
   margin: 0 0 24px;
-  font-family: "Times New Roman", serif;
+  font-family: 'Times New Roman', serif;
 }
 
 /* * = alles */
@@ -114,7 +113,7 @@ ol {
 }
 
 li ul,
-li ol{
+li ol {
   margin-bottom: 0;
 }
 
@@ -134,7 +133,7 @@ hr {
 
 a {
   color: RoyalBlue;
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 /* loVe before Hate */
@@ -168,7 +167,6 @@ td {
   background-color: whitesmoke;
 }
 
-
 /*
     Media Queries
     ---
@@ -177,14 +175,12 @@ td {
     Modify as content requires.
 */
 
-
 /* Extra small devices (portrait phones, less than 576px)
    No media query since this is the default in Bootstrap
 */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -200,10 +196,8 @@ td {
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
 @media (min-width: 992px) {
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 }
